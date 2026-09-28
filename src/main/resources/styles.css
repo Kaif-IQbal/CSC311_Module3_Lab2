@@ -1,0 +1,47 @@
+.root {
+    -fx-background-color: #f4f6f8;
+    -fx-font-family: "Arial";
+}
+
+.splash {
+    -fx-background-color: #1e293b;
+}
+
+.landing {
+    -fx-background-color: #eef2ff;
+    -fx-padding: 40;
+}
+
+.card {
+    -fx-background-color: white;
+    -fx-padding: 45;
+    -fx-background-radius: 15;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 15, 0, 0, 5);
+}
+
+.title {
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+}
+
+.subtitle {
+    -fx-font-size: 18px;
+}
+
+.text-field,
+.password-field {
+    -fx-pref-width: 300px;
+    -fx-pref-height: 40px;
+}
+
+.button {
+    -fx-pref-width: 300px;
+    -fx-pref-height: 42px;
+    -fx-font-size: 16px;
+    -fx-cursor: hand;
+}
+
+.link {
+    -fx-text-fill: #2563eb;
+    -fx-cursor: hand;
+}
